@@ -1,0 +1,47 @@
+{
+  "author": "@samrum/vite-plugin-web-extension",
+  "description": "A @samrum/vite-plugin-web-extension web extension",
+  "name": "Yandex Music Helper",
+  "version": "1.0.0",
+  "content_scripts": [
+    {
+      "js": [
+        "src/entries/contentScript/primary/main.js"
+      ],
+      "matches": [
+        "*://*/*"
+      ]
+    }
+  ],
+  "icons": {
+    "128": "icons/128.png"
+  },
+  "options_ui": {
+    "page": "src/entries/options/index.html",
+    "open_in_tab": true,
+    "chrome_style": false
+  },
+  "permissions": [
+    "tabs",
+    "*://*/*"
+  ],
+  "background": {
+    "persistent": false,
+    "page": "background.html"
+  },
+  "browser_action": {
+    "default_icon": {
+      "16": "icons/16.png",
+      "19": "icons/19.png",
+      "32": "icons/32.png",
+      "38": "icons/38.png"
+    },
+    "default_popup": "src/entries/popup/index.html"
+  },
+  "manifest_version": 2,
+  "web_accessible_resources": [
+    "assets/src/entries/contentScript/primary/main-a456eade.js",
+    "assets/browser-polyfill-ed3fd08a.js",
+    "assets/index-3e22fdda.js"
+  ]
+}

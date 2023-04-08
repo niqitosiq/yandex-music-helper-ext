@@ -1,0 +1,1 @@
+import{S as o,i as l,s as i,m as p,f as m,o as r,n,e as c}from"../../../index-3e22fdda.js";function u(s){let t;return{c(){t=p("main"),t.textContent="im options :D",m(t,"class","svelte-1ubfyxy")},m(e,a){r(e,t,a)},p:n,i:n,o:n,d(e){e&&c(t)}}}class _ extends o{constructor(t){super(),l(this,t,null,u,i,{})}}new _({target:document.getElementById("app")});
