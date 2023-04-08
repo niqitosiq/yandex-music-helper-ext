@@ -1,7 +1,7 @@
 {
-  "name": "vite-web-extension",
+  "name": "Yandex Music Helper",
   "version": "1.0.0",
-  "displayName": "Niqitosiq Web Extension",
+  "displayName": "Yandex Music Helper",
   "author": "@samrum/vite-plugin-web-extension",
   "description": "A @samrum/vite-plugin-web-extension web extension",
   "scripts": {
